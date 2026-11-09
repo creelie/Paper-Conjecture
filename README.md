@@ -12,4 +12,6 @@ For x1' = x2^p, x2' = x1^q with p, q >= 2, the paper gives the degree of every p
 
 The proofs in the paper do not use the scripts.
 
+Archive: Zenodo, concept DOI [10.5281/zenodo.24094789](https://doi.org/10.5281/zenodo.24094789).
+
 License: MIT.
