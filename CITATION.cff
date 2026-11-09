@@ -8,6 +8,7 @@ authors:
 version: 1.0.0
 date-released: 2026-11-10
 license: MIT
+doi: "10.5281/zenodo.24094789"
 repository-code: "https://github.com/creelie/Paper-Conjecture"
 keywords:
   - prolongation variety
