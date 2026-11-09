@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Degrees of Prolongation Varieties of Monomial Planar Systems"
+authors:
+  - family-names: Bhattacharjee
+    given-names: Deep
+    orcid: "https://orcid.org/0000-0003-0466-750X"
+version: 1.0.0
+date-released: 2026-11-10
+license: MIT
+repository-code: "https://github.com/creelie/Paper-Conjecture"
+keywords:
+  - prolongation variety
+  - geometric degree
+  - differential algebra
+  - weighted Bezout theorem
+  - interlacing zeros
