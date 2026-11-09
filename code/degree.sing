@@ -1,0 +1,15 @@
+// deg X_m for x1'=x2^p, x2'=x1^q as dim K[a,b]/(A_{m+1}+U, B_{m+1}+V),
+// with U, V random combinations of 1, A_0, B_0, ..., A_m, B_m over GF(32003).
+// Usage: Singular -q with variables p, q, M defined; see run_degrees.sh.
+ring R=32003,(a,b),dp;
+proc Dd(poly f, int p, int q){ return(b^p*diff(f,a)+a^q*diff(f,b)); }
+proc degX(int p,int q,int m){
+  list A,B; A[1]=a; B[1]=b;
+  int l;
+  for(l=1;l<=m+1;l++){ A[l+1]=Dd(A[l],p,q); B[l+1]=Dd(B[l],p,q); }
+  poly U=random(1,30000); poly V=random(1,30000);
+  for(l=1;l<=m+1;l++){ U=U+random(1,30000)*A[l]+random(1,30000)*B[l]; V=V+random(1,30000)*A[l]+random(1,30000)*B[l]; }
+  ideal I=A[m+2]+U, B[m+2]+V;
+  ideal J=std(I);
+  return(vdim(J));
+}

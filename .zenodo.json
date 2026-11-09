@@ -1,0 +1,14 @@
+{
+  "title": "Degrees of Prolongation Varieties of Monomial Planar Systems",
+  "upload_type": "software",
+  "description": "LaTeX source, figures, checking scripts and data for the paper Degrees of Prolongation Varieties of Monomial Planar Systems. For x1' = x2^p, x2' = x1^q with p, q >= 2 the paper computes the degree of every prolongation variety in closed form, answering Questions 6 and 7 of G. Pogudin's open problems in differential algebra for this family and proving Puddu's conjecture.",
+  "creators": [
+    {
+      "name": "Bhattacharjee, Deep",
+      "orcid": "0000-0003-0466-750X"
+    }
+  ],
+  "license": "MIT",
+  "keywords": ["prolongation variety", "geometric degree", "differential algebra", "weighted Bezout theorem", "interlacing zeros"],
+  "language": "eng"
+}
